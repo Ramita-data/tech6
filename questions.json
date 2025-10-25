@@ -1,0 +1,34 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "time": 25,
+      "fact": "Computers take input, process it, and produce output; that's the core of computing.",
+      "questions": [
+        {"q":"Which device is used to point and click on the screen?","choices":["Keyboard","Mouse","Printer","Speaker"],"a":1},
+        {"q":"What does CPU stand for?","choices":["Central Processing Unit","Computer Personal Unit","Central Program Utility","Control Process Unit"],"a":0},
+        {"q":"Which is a storage device?","choices":["Monitor","Hard Disk","Microphone","Projector"],"a":1}
+      ]
+    },
+    {
+      "level": 2,
+      "time": 20,
+      "fact": "AI systems learn patterns from data; large, diverse datasets help models generalize.",
+      "questions": [
+        {"q":"What does AI stand for?","choices":["Artificial Information","Artificial Intelligence","Automated Interface","Active Inquiry"],"a":1},
+        {"q":"Which is a common AI task?","choices":["Image Recognition","Boiling Water","Sanding Wood","Wiring a Plug"],"a":0},
+        {"q":"Machine Learning models need: ","choices":["No data","A lot of data","Only code","Only hardware"],"a":1}
+      ]
+    },
+    {
+      "level": 3,
+      "time": 15,
+      "fact": "Robots use sensors (like cameras and proximity sensors) to understand their environment.",
+      "questions": [
+        {"q":"A sensor in robotics is used to:","choices":["Power the robot","Sense environment","Paint the robot","Sell products"],"a":1},
+        {"q":"Actuators in robots are used to:","choices":["Sense","Compute","Act/Move","Store data"],"a":2},
+        {"q":"Which is NOT typically a robot component?","choices":["Controller","Actuator","Lego blocks","Sensor"],"a":2}
+      ]
+    }
+  ]
+}

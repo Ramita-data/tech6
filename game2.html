@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechQuest 2</title>
+  <link rel="stylesheet" href="game2style.css" />
+</head>
+<body>
+  <div id="game-container">
+    <!-- Start Screen -->
+    <div id="screen-start">
+      <h1>Welcome to TechQuest 2</h1>
+      <button id="btn-start">Start Game</button>
+      <div class="stats">
+        <p>Score: <span id="score-val">0</span></p>
+        <p>Coins: <span id="coins-val">0</span></p>
+      </div>
+    </div>
+
+    <!-- Level Screen -->
+    <div id="screen-level" class="hidden">
+      <h2>Level <span id="level-num"></span></h2>
+      <p id="timer">⏱️ Time left: <span id="timer-val"></span>s</p>
+      <div id="question-text"></div>
+      <div id="options"></div>
+    </div>
+
+    <!-- Fact Screen -->
+    <div id="screen-fact" class="hidden">
+      <h3>Did You Know?</h3>
+      <p id="tech-fact"></p>
+      <button id="btn-next">Next Level</button>
+    </div>
+
+    <!-- Game Over Screen -->
+    <div id="screen-gameover" class="hidden">
+      <h2>Game Over</h2>
+      <p>Your final score: <span id="final-score"></span></p>
+      <button id="btn-restart">Restart</button>
+    </div>
+  </div>
+
+  <!-- Audio Elements -->
+  <audio id="bg-music" loop>
+    <source src="background.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="sound-correct">
+    <source src="correct.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="sound-wrong">
+    <source src="wrong.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="game2.js"></script>
+</body>
+</html>
